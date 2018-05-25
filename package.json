@@ -1,0 +1,24 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "multi-page webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --watch --progress --display-modules --colors --display-reasons",
+    "dev": "webpack-dev-server --mode development --watch --progress --display-modules --colors --display-reasons",
+    "build": "webpack --mode production --watch --progress --display-modules --colors --display-reasons"
+  },
+  "author": "yanyan",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "webpack-cli": "^2.1.4"
+  }
+}
